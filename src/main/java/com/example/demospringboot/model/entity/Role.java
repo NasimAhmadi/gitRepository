@@ -1,6 +1,6 @@
-package com.example.demospringboot.entity;
+package com.example.demospringboot.model.entity;
 
-import com.example.demospringboot.enums.RoleNameEnum;
+import com.example.demospringboot.model.enums.RoleNameEnum;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,6 @@
-package com.example.demospringboot.dto;
+package com.example.demospringboot.model.response;
 
-import com.example.demospringboot.enums.RoleNameEnum;
+import com.example.demospringboot.model.enums.RoleNameEnum;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
@@ -8,7 +8,7 @@ import lombok.experimental.Accessors;
 @Setter
 @Getter
 @Accessors(chain = true)
-public class RoleDto {
+public class RoleDtoRes {
     private Long id;
     private RoleNameEnum roleName;
 }

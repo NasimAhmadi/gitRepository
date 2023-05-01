@@ -1,4 +1,4 @@
-package com.example.demospringboot.entity;
+package com.example.demospringboot.model.entity;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.example.demospringboot.dto;
+package com.example.demospringboot.model.response;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,8 +9,8 @@ import java.util.List;
 @Setter
 @Getter
 @Accessors(chain = true)
-public class UserDto {
+public class UserDtoRes {
     private Long id;
     private String name;
-    private List<RoleDto> roles;
+    private List<RoleDtoRes> roles;
 }
